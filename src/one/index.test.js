@@ -26,7 +26,7 @@ describe('When the resolveWordByNumber method is called', () => {
 
 describe("When the validateNumber", () => {
   it('should be called with a number, otherwise it should throw an error', () => {
-    expect(() => validateNumber()).toThrow('The argument must be a number');
+    expect(() => validateNumber()).toThrow('The argument must be a valid number');
     expect(() => validateNumber('Lenin')).toThrow();
     expect(() => validateNumber([])).toThrow();
     expect(() => validateNumber(NaN)).toThrow();

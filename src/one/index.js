@@ -10,7 +10,7 @@
 
 export const validateNumber = (number) => {
   if (typeof number !== "number" || isNaN(number))
-    throw new Error("The argument must be a number");
+    throw new Error("The argument must be a valid number");
   if (number < 1 || number > 100)
     throw new Error("The argument must be a number between 1 and 100");
 };
