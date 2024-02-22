@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the solutions to the challenges proposed by Senirop.
+This repository contains the solutions to the challenges proposed
 
 ## How to use
 
