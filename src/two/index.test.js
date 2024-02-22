@@ -58,7 +58,7 @@ describe("NearPalindromesDiv1 tests", () => {
     });
   });
 
-  describe("When the needsToBePalindrome method is called", () => {
+  describe("When the toBeNearPalindrome method is called", () => {
     it("should return 0 if the word is a near palindrome", () => {
       const result = nearPalindromesDiv1.toBeNearPalindrome("aabbc");
       expect(result).toBe(0);
